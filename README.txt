@@ -1,2 +1,1 @@
-
-Mudança 2
+Este repositório contém o código para o lab1.
