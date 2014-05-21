@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>Sistema da Informação 1 - UFCG</title>
-		<meta charset="utf-8">
-		
-		<style>
-			body {background-image:url("background.jpg");}
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">  	
+		<title>SI1 - UFCG</title>  	
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">  
+		<style type="text/css"> 
+			body {background-image: url(img/background2.jpg); }
 		</style>
 		
 	</head>
-	<body>
-	
-		<figure>
-			<img src="img/barra_topo.jpg" alt="action bar" >
-			
-		</figure>
-		
-		<h1 style="padding-left:10%"> Matricule-se!</h1> <br>
-	
-	<form style="padding-left:15%">
-		Nome:<br> <input type="text" name="nome" style="width:80%;"> <br>
-		E-mail:<br> <input type="email" name="email" style="width:80%;"> <br>
-		Curso:<br> <input type = "text" name = "curso" style="width:50%;" style="padding-right:1%">
-		<br> Matricula:<br> <input type="text" name="matricula"> <br>
-	  
-	 <br> <button type="button" onclick="parent.location='confirm.html'">Cadastre-se</button>
-			   
-	
-	</form>
-	
-		<br><br>		  
-		<figure>
-			<img src="img/marcador.png" alt="marcador" >
-			
-		</figure>
+<body>
 
+	<div id="container">
+		<div id="header" title="Sistema da Informação 1">
+			<img class="imagefloat" src="img/bg_header.jpg" alt="" width="998"
+				height="152">
+			<h1>Sistema da Informação 1</h1>
+		</div>
+
+		<div id="mainnav">
+			<ul>
+				<li><a href="index.html">Início</a>
+				</li>
+				<li><a
+					href="https://sites.google.com/a/computacao.ufcg.edu.br/si1/conteudo-e-objetivos"
+					target="_blank">Conteúdo</a>
+				</li>
+				<li><a
+					href="https://sites.google.com/a/computacao.ufcg.edu.br/si1/ferramentas-e-tecnologias"
+					target="_blank">Ferramentas e Tecnologias</a>
+				</li>
+			</ul>
+		</div>
+
+		<div id="contents">
+			<div class="pag_principal">
+				<h4>
+					<a style="color: #264820" title="Pagina principal">Insira seus
+						dados para efetuar matrícula!</a>
+				</h4>
+
+
+			<form class="basic-grey" action="" method="post" >
+
+					<label> <span> Your Name :</span> <input id="name"
+						type="text" name="name" placeholder="Your Full Name" /> </label> 
+					<label> <span>Your Email :</span> <input id="email" type="email"
+						name="email" placeholder="Valid Email Address" /> </label> 
+					<label> <span>Message :</span> <textarea id="message" name="message"
+							placeholder="Your Message to Us"></textarea> </label> 
+					<label> <input type="button" class="button" value="Send" /> </label>
+			</form>
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div>
 
 </body>
 </html>
