@@ -127,19 +127,108 @@ h3 {
 	border-bottom: 1px solid #d0f2e1;
 	}
 	
+.pag_principal .button{
+	 background: #6fb14f;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+ 	margin-right: 60px;
+    width: 100px;
+    float: right;
+    
+	} 
+	
+.pag_principal .button:HOVER{
+	  background: #91ba7d;
+    
+}
 .imagefloat{
 	float: right;
 	padding: 2px;
 	border: 1px solid #d0f2e1;
 	margin: 0 0 10px 10px;
-	}  
+	}
+	
 
+		
+.form-cadastrar{
+        width: 400px;
+        height: 270px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #EEE;
+    padding: 20px 30px 20px 30px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #b7cfb9;
+    margin-top: 50px;
+    margin-bottom: 48px;
+       }
+       
+  .form-cadastrar h1 {
+	font: 25px Georgia, "Times New Roman", Times, serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+ 
+ .form-cadastrar h1 >span {
+	display: block;
+    font-size: 11px;
+}
+ 
+.form-cadastrar label {
+	display: block;
+    margin: 0px 0px 5px;
+}
+ 
+.form-cadastrar input {
+	border: 1px solid #b7cfb9;
+    color: #888;
+    height: 24px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font: normal 12px/12px Georgia, "Times New Roman", Times, serif;
+    
+	}
+
+ 
+.form-cadastrar input[type=submit] {
+	width: 185px; height: 52px; float: right; padding: 10px 15px; margin: 0 15px 0 0;
+	-moz-box-shadow: 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
+	border: 1px solid #65925c;
+	background-color:8fc384;
+	cursor: pointer;
+}  
+
+.form-cadastrar .button {
+    background: #6fb14f;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+ 	margin-right: 60px;
+    width: 100px;
+    float: right;
+    
+}
+
+
+.form-cadastrar .button:hover {
+    background: #91ba7d
+}
 #footer {
 	clear: both;
 	color: #d0f2e1;
 	text-align: right;
 	font-size: 90%;
-	background: #376e2c;
+	background: #6E8866;
 	padding: 10px;
 	
 	}

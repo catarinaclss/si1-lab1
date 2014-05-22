@@ -33,28 +33,30 @@
 			</ul>
 		</div>
 
-		<div id="contents">
-			<div class="pag_principal">
-				<h4>
-					<a style="color: #264820" title="Pagina principal">Insira seus
-						dados para efetuar matrícula!</a>
-				</h4>
+		<div id="formcontents" class="form-cadastrar">
+			<h1 style="color: #264820">
+				Cadastro <span>Por favor, insira seus dados para efetutar sua
+					matrícula.</span>
+			</h1>
 
+			<label style="padding-left:8%"> <span>Nome:</span> <input id="name" type="text"
+				name="name" placeholder="Insira seu nome completo" /> </label> 
+			<label style="padding-left:8%"> <span>Email:</span> <input id="email" type="email" name="email"
+				placeholder="Insira um e-mail válido" /> </label> 
+			 <label style="padding-left:8%"> <span>Matrícula:</span> <input id="matricula" type="text" name="matricula"
+				placeholder="Insira sua matrícula" style="width:235px" /> </label> 
+			<label> 
+        		<input type="button" class="button" value="Matricular" style="width:150px"
+        		onclick="window.open('confirm.html');" /> 
+   			 </label>       
+			
 
-			<form class="basic-grey" action="" method="post" >
-
-					<label> <span> Your Name :</span> <input id="name"
-						type="text" name="name" placeholder="Your Full Name" /> </label> 
-					<label> <span>Your Email :</span> <input id="email" type="email"
-						name="email" placeholder="Valid Email Address" /> </label> 
-					<label> <span>Message :</span> <textarea id="message" name="message"
-							placeholder="Your Message to Us"></textarea> </label> 
-					<label> <input type="button" class="button" value="Send" /> </label>
-			</form>
-			</div>
 		</div>
+		<div id="footer"></div>
 	</div>
-	<div id="footer"></div>
+	
 
 </body>
 </html>
+
+
