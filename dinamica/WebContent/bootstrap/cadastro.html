@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>SI1 - UFCG</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -79,33 +79,56 @@
         <!-- /.container -->
     </nav>
 
-    <div class="container"> 
-    	<div class="row" style="background: #e6e8eb; width: 100%; height: 320px; float: left; margin-top: 18%  " >
-            <div class="modal-header" style="background: #e6e8eb; width: 100%; height: 110%; float: left;">
-			<h1 style=" margin-top: 20px; margin-left: 20%; color: #2e2f30">
-				Obrigado! <span>Sua matrícula foi realizada com sucesso!</span><br>
-						  
+	<div class="container">
+		 <div class="row" style="background: #e6e8eb; width: 100%; height: 320px; float: left; margin-top: 18%  " >
+		<div class="modal-header" style="background: #e6e8eb; width: 100%; height: 110%; float: left;">
+			<h1 style=" margin-top: 20px; margin-left: 20%">
+				Cadastro <span>Por favor, insira seus dados para efetutar sua
+					matrícula.</span>
 			</h1>
+
+			<div class="modal-body">
+				<div class="well" style="margin-top: -15px; width: 60%; margin-left: 20%; border: 1px solid #a1c0d1">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#" data-toggle="tab">Formulário</a>
+						</li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane active in" id="create">
+							<form id="tab" style="margin-top: 10px">
+									<label style="padding-left: 8%"> <span>Nome:</span> <input
+										id="name" type="text" name="name"
+										placeholder="Insira seu nome completo" /> </label>
+									 <label
+										style="padding-left: 8%"> <span>Email:</span> <input
+										id="email" type="email" name="email"
+										placeholder="Insira um e-mail válido" /> </label>
+									<label
+										style="padding-left: 8%"> <span>Matrícula:</span> <input
+										id="matricula" type="text" name="matricula"
+										placeholder="Insira sua matrícula" style="width: 445px" /> </label>
+
+									
+									
+								
+							</form>
+
+								<label> <a href="confirm.html">
+										<button class="btn btn-primary" style="margin-left: 65%">Enviar</button>
+								</a> </label>
+							</div>
+					</div>
+					</div>
+				</div>
 			</div>
-			<label>
-				<a href="index.html" >
-        		<input type="button" class="btn btn-primary" value="Voltar para pagina inicial" style="width:250px; margin-top: -300px; margin-left: 500px"/>
-        		</a> 
-   			 </label>  
-		 
-        </div>
-        
-        
-    		
-    
-    </div>
-    
-
-      
-        
+		</div>
 
 
-    <!-- /.container -->
+
+
+
+	</div>
+	<!-- /.container -->
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>

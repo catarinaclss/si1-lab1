@@ -80,36 +80,71 @@
     </nav>
 
     <div class="container"> 
-    	<div class="row" style="background: #e6e8eb; width: 100%; height: 320px; float: left; margin-top: 18%  " >
+    	<div class="row" style="background: #e6e8eb; width: 100%; height: 60%; float: left; margin-top: 18%  " >
             <div class="modal-header" style="background: #e6e8eb; width: 100%; height: 110%; float: left;">
-			<h1 style=" margin-top: 20px; margin-left: 20%; color: #2e2f30">
-				Obrigado! <span>Sua matrícula foi realizada com sucesso!</span><br>
-						  
-			</h1>
+			<h1 style=" margin-top: 20px; margin-left: 13%; color: #2e2f30">
+				Plano de curso <span>Insira os temas que você deseja aprender.</span><br>
+					</h1>	
+					
+					
+			 <fieldset >
+                    <label style="margin-left: 200px">Tema:</label>
+                    <input type="text" class="form-control" size="100" maxlength="30" style="margin-left: 15%; margin-right: auto; width: 30%; height: 40px; "
+					placeholder="Insira o nome do tema" onkeypress="enter(event)" id="materia">
+                   
+                     </fieldset>
+
+				
+
+					
+						<div style="margin-bottom: 30%; height: 20px; width: 30%;  margin-left: 15%;">
+							<table class="table table-hover table-condensed"
+								id="tabela-aprender">
+								<thead>
+									<tr>
+										<th  >Em curso</th>
+
+									</tr>
+								</thead>
+							</table>
+						</div>
+						
+						<br>
+			
+
+						<div style="margin-left:15%; margin-top: -28%; height: 20px; width: 30%;">
+							<table class="table table-hover table-condensed"
+								id="tabela-aprendidos">
+								<thead>
+									<tr>
+										<th  style="width: 200px;">Temas concluídos</th>
+									
+
+									</tr>
+								</thead>
+							</table>
+						</div>
+				
+
+
+				</div>
 			</div>
-			<label>
-				<a href="index.html" >
-        		<input type="button" class="btn btn-primary" value="Voltar para pagina inicial" style="width:250px; margin-top: -300px; margin-left: 500px"/>
-        		</a> 
-   			 </label>  
+				
+                   
+                   
+              
+			</div>
+			
+			 
 		 
-        </div>
-        
-        
-    		
     
-    </div>
-    
-
-      
         
-
-
+ 
     <!-- /.container -->
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="./js/scripts.js"></script>
 
 </body>
 

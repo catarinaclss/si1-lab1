@@ -1,0 +1,234 @@
+body  {  	
+	margin: 0;  	
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #6a9c4b;
+	background: #ddd url(img/img_body.jpg) repeat 0 0; 
+	}    
+	
+	a:link { color: #6a9c4b; }
+	a:visited { color: #2a5621; }
+	a:focus { color: #000; }
+	a:hover { color: #50a240; }
+	a:active { color: green; }
+	h1, h2, h3, h4, h5, h6 { margin: 0 0 .5em; }
+	
+h2{
+	color: #084f2f;
+	font: 110% georgia;
+
+	font-size: 40px;
+	}	
+
+h3 {
+	color: #7d8206;
+	font: 110% georgia, times, "times new roman", serif;
+	}
+#container  {  	
+	margin: 1em auto;  	
+	width: 1000px; 
+	height: 600px;
+	text-align: left; 	
+	background: #fff;
+	border: 1px solid #676767;  
+	}    
+#header {
+	height: 45px;
+	width: 100%;
+	position: relative;
+	background: url("img/bg_header.jpg") no-repeat 0 0;
+	border-bottom: 1px solid #fff;
+	}
+#header h1 {
+	position: absolute;
+	left: -500em;
+	}
+	
+#mainnav {
+	background: #9F3;
+    }
+
+#skipmenu {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 645px;
+	text-align: right;
+	}
+
+#skipmenu a {
+	color: #555;
+	text-decoration: none;
+	}
+#mainnav {
+	background: #021d0a;
+	color: #cff8e7;
+	padding: 2px 0;
+	margin-bottom: 10px;
+	}
+	
+#mainnav ul{
+	margin: 10 10 20px;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 0px;
+	border-left:  1px solid #117a57;
+	}
+	
+#mainnav li{
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #117a57;
+	}
+
+#mainnav li a{
+	text-decoration: none;
+	color: #9cd591;
+	}
+
+#mainnav li a:HOVER{
+	text-decoration: none;
+	color: #d0f2e1;
+	background-color: #125232;
+	}
+#menu  {  	
+	float: right;  	
+	width: 250px;
+	border-left: 1px solid #d0f2e1;  	
+	padding-left: 15px;
+	} 
+	
+#menu ul{
+	margin: 1em 0;
+	padding: 0;
+	}   
+
+	
+#menu ul li{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+	}   
+	
+	
+#contents  {  	
+	float: left;  	
+	width: 650px;
+	height: 400px;  	 	
+	margin: 0 0 0 20px;
+	margin-left: 50px;  
+	} 
+	
+#contents p{
+	line-height: 165%;
+	} 
+.pag_principal {
+	border-bottom: 1px solid #d0f2e1;
+	}
+	
+.pag_principal .button{
+	 background: #6fb14f;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+ 	margin-right: 60px;
+    width: 100px;
+    float: right;
+    
+	} 
+	
+.pag_principal .button:HOVER{
+	  background: #91ba7d;
+    
+}
+.imagefloat{
+	float: right;
+	padding: 2px;
+	border: 1px solid #d0f2e1;
+	margin: 0 0 10px 10px;
+	}
+	
+
+		
+.form-cadastrar{
+        width: 400px;
+        height: 270px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #EEE;
+    padding: 20px 30px 20px 30px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #b7cfb9;
+    margin-top: 50px;
+    margin-bottom: 48px;
+       }
+       
+  .form-cadastrar h1 {
+	font: 25px Georgia, "Times New Roman", Times, serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+ 
+ .form-cadastrar h1 >span {
+	display: block;
+    font-size: 11px;
+}
+ 
+.form-cadastrar label {
+	display: block;
+    margin: 0px 0px 5px;
+}
+ 
+.form-cadastrar input {
+	border: 1px solid #b7cfb9;
+    color: #888;
+    height: 24px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font: normal 12px/12px Georgia, "Times New Roman", Times, serif;
+    
+	}
+
+ 
+.form-cadastrar input[type=submit] {
+	width: 185px; height: 52px; float: right; padding: 10px 15px; margin: 0 15px 0 0;
+	-moz-box-shadow: 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
+	border: 1px solid #65925c;
+	background-color:8fc384;
+	cursor: pointer;
+}  
+
+.form-cadastrar .button {
+    background: #6fb14f;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+ 	margin-right: 60px;
+    width: 100px;
+    float: right;
+    
+}
+
+
+.form-cadastrar .button:hover {
+    background: #91ba7d
+}
+#footer {
+	clear: both;
+	color: #d0f2e1;
+	text-align: right;
+	font-size: 90%;
+	background: #6E8866;
+	padding: 10px;
+	
+	}
